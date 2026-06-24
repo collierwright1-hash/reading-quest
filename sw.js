@@ -3,8 +3,7 @@
 const CACHE = "reading-quest-v1";
 const SHELL = [
   "./", "./index.html", "./styles.css", "./app.js",
-  "./manifest.webmanifest", "./icon.svg", "./icon-180.png", "./icon-512.png",
-  "./questions-summer1.json"
+  "./manifest.webmanifest", "./icon.svg", "./icon-180.png", "./icon-512.png"
 ];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL.filter(Boolean))).then(()=>self.skipWaiting()));
