@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "summer": 1,
+  "note": "One key disputatio question per section. Authored in the companion parent's guide, then mirrored here. Leave 'questions' empty to ship the app before the guide is finished — the Discuss screen degrades gracefully and still rewards logged conversations. Unlock a question with ONE of: unlockAtPage (page-books), unlockAtUnit (completion-books, the unit id), or unlockAtPct.",
+  "questions": [
+    {
+      "id": "EXAMPLE-hobbit-1",
+      "bookId": "hobbit",
+      "section": "Chapter 1 — An Unexpected Party",
+      "unlockAtPage": 30,
+      "question": "Bilbo wants nothing to do with the adventure. Make the strongest case that staying home would have been the wiser, more responsible choice — then say what, if anything, is missing from that case.",
+      "note": "Listen for whether comfort is being mistaken for virtue. First-principles move: what is a life FOR? Delete this example row and replace with real questions from the guide."
+    }
+  ]
+}

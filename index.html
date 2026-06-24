@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <title>Reading Quest</title>
+
+  <!-- PWA / iOS add-to-home-screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Reading Quest" />
+  <meta name="theme-color" content="#1E3A34" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icon-180.png" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+
+  <!-- Characterful display face; falls back to Georgia offline before the SW cache warms -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="statusbar" class="statusbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Reading Quest</span>
+      </div>
+      <div class="status-stats">
+        <button class="chip chip-streak" data-goto="trends" id="streak-chip" aria-label="Reading streak">
+          <span class="chip-glyph">&#9650;</span><span id="streak-val">0</span>
+        </button>
+        <button class="chip chip-points" data-goto="trends" id="points-chip" aria-label="Points earned">
+          <span id="points-val">0</span><span class="chip-unit">pts</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="screen" class="screen"><!-- rendered by app.js --></main>
+
+    <nav id="tabbar" class="tabbar" role="tablist">
+      <button class="tab" data-screen="books"    role="tab" aria-selected="true">Books</button>
+      <button class="tab" data-screen="trends"   role="tab" aria-selected="false">Trends</button>
+      <button class="tab" data-screen="discuss"  role="tab" aria-selected="false">Discuss</button>
+      <button class="tab" data-screen="settings" role="tab" aria-selected="false">Settings</button>
+    </nav>
+  </div>
+
+  <!-- Bottom sheet / modal host -->
+  <div id="sheet-host" class="sheet-host" hidden>
+    <div class="sheet-scrim" data-close-sheet></div>
+    <div id="sheet" class="sheet" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
