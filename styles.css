@@ -236,6 +236,8 @@ input, select{ font-family: inherit; font-size: 17px; color: var(--ink); }
 .tab[aria-selected="true"]::after{ content:""; position:absolute; top:8px; width:24px; height:3px; border-radius:99px; background:var(--gold); }
 
 /* ---------- Sheet / modal ---------- */
+/* Explicit rule so [hidden] always wins over any display: rule in this stylesheet */
+[hidden]{ display:none !important; }
 .sheet-host{ position:fixed; inset:0; z-index:50; display:flex; align-items:flex-end; justify-content:center; }
 .sheet-scrim{ position:absolute; inset:0; background:rgba(20,32,28,.42); animation:fade .2s ease; }
 .sheet{ position:relative; width:100%; max-width:560px; background:var(--ground);

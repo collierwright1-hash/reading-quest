@@ -1,9 +1,10 @@
 /* Reading Quest service worker — offline app shell.
    Bump CACHE when you change app files so devices pick up the update. */
-const CACHE = "reading-quest-v1";
+const CACHE = "reading-quest-v2";
 const SHELL = [
   "./", "./index.html", "./styles.css", "./app.js",
-  "./manifest.webmanifest", "./icon.svg", "./icon-180.png", "./icon-512.png"
+  "./manifest.webmanifest", "./icon.svg", "./icon-180.png", "./icon-512.png",
+  "./questions-summer1.json"
 ];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL.filter(Boolean))).then(()=>self.skipWaiting()));
