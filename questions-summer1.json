@@ -1,15 +1,335 @@
 {
   "version": 1,
   "summer": 1,
-  "note": "One key disputatio question per section. Authored in the companion parent's guide, then mirrored here. Leave 'questions' empty to ship the app before the guide is finished — the Discuss screen degrades gracefully and still rewards logged conversations. Unlock a question with ONE of: unlockAtPage (page-books), unlockAtUnit (completion-books, the unit id), or unlockAtPct.",
+  "note": "One disputatio question per section. Unlocks are by PERCENT of each book (unlockAtPct), so they self-adjust to whatever total page count each child sets in the app — edition-independent.",
   "questions": [
     {
-      "id": "EXAMPLE-hobbit-1",
+      "id": "hobbit-ch1",
       "bookId": "hobbit",
       "section": "Chapter 1 — An Unexpected Party",
-      "unlockAtPage": 30,
-      "question": "Bilbo wants nothing to do with the adventure. Make the strongest case that staying home would have been the wiser, more responsible choice — then say what, if anything, is missing from that case.",
-      "note": "Listen for whether comfort is being mistaken for virtue. First-principles move: what is a life FOR? Delete this example row and replace with real questions from the guide."
+      "unlockAtPct": 9,
+      "question": "Bilbo wants nothing more than his armchair and his second breakfast, yet by the end of the chapter he’s signed on to the adventure. What actually moves him—is it Thorin’s song, wounded pride at being called a grocer, or something he doesn’t quite admit to himself? Make the case that Bilbo is being foolish here, then make the case that something real in him is waking up. Which reading does Tolkien want you to believe, and how can you tell?",
+      "note": "The point is that both readings are defensible and Tolkien holds them in tension on purpose—the “Tookish” side stirring is presented as both reckless and genuine. A thoughtful answer notices that Bilbo’s discomfort (the song, the slight) is doing real work, and starts to wonder whether the comfortable life he’s defending is actually worth defending. Resist letting him settle it too fast; the unresolved tug is the chapter’s engine."
+    },
+    {
+      "id": "hobbit-ch2",
+      "bookId": "hobbit",
+      "section": "Chapter 2 — Roast Mutton",
+      "unlockAtPct": 15,
+      "question": "When Bilbo tries to pick the troll’s pocket, he’s doing exactly the job he was hired for—and it nearly gets everyone killed. Was Bilbo brave or stupid to attempt it? What’s the difference between the two, and does the difference depend on how it turned out? If the same act can be brave or stupid depending on the result, is “bravery” even a real quality a person has—or just a name we give to things that worked?",
+      "note": "This is the first hard probe at a theme that runs all summer: is courage a thing you are or a thing you do? Watch for him distinguishing the quality of the choice from the luck of the outcome—a brave act badly executed is still brave. The trap to surface gently is outcome-based thinking (“it was stupid because it failed”), which the Arkenstone and dragon-lair questions later will dismantle. Good answer: bravery lives in the decision and the reason for it, not the result."
+    },
+    {
+      "id": "hobbit-ch3",
+      "bookId": "hobbit",
+      "section": "Chapter 3 — A Short Rest",
+      "unlockAtPct": 19,
+      "question": "Rivendell is a place where nothing dangerous happens—the party just rests, eats, and Elrond reads the moon-letters on the map. Why does Tolkien stop the adventure cold to put a chapter like this here? What would be lost if he’d skipped straight from the trolls to the mountains? Argue that the chapter is a boring detour, then argue that the rest is as necessary to the journey as the dangers are.",
+      "note": "He’s being asked to reason about why an author makes a structural choice, not just what happened—a step up from plot. The “boring detour” case is easy and he should make it honestly. The richer case: the moon-letters (knowledge gained only in a place of peace), the contrast that makes the coming danger legible, the idea that a good life isn’t only striving. If he connects rest-as-necessary to anything in his own life, that’s the personal-stakes payoff."
+    },
+    {
+      "id": "hobbit-ch4",
+      "bookId": "hobbit",
+      "section": "Chapter 4 — Over Hill and Under Hill",
+      "unlockAtPct": 24,
+      "question": "The dwarves take shelter in what looks like a safe, dry cave—and it turns out to be the worst decision they could have made. Bilbo is the only one uneasy about it, and he’s right. What does it mean that the hobbit who knows nothing about mountains has the best instinct here? Is his caution a kind of wisdom, or just timidity that happened to be correct this time? How would you tell the difference?",
+      "note": "This revisits the bravery-vs-outcome problem from the other direction: was Bilbo wise or merely lucky and fearful? The richer reading is that Bilbo’s domestic, un-heroic sensibility—noticing what’s wrong with a shelter—is a real form of practical judgment the seasoned adventurers lack. Watch for him connecting this to Chapter 2: caution and courage aren’t opposites. A good answer resists the idea that being scared and being right are the same thing."
+    },
+    {
+      "id": "hobbit-ch5",
+      "bookId": "hobbit",
+      "section": "Chapter 5 — Riddles in the Dark",
+      "unlockAtPct": 30,
+      "question": "Bilbo has Gollum at his mercy at the end—he could kill him and escape clean, and Gollum means to kill him. He doesn’t. Make the strongest case that sparing Gollum is the smart, justified choice, and then the strongest case that it’s a dangerous mistake that a sensible person wouldn’t make. What stops Bilbo’s hand—mercy, pity, fear, or something he couldn’t name? Does it matter why he spares Gollum, or only that he does?",
+      "note": "This is one of the most important moral moments in the book and Tolkien clearly thinks the pity is right—but the question forces the hard side first, which an 11-year-old will feel genuinely (Gollum is dangerous; this will cost later). The real depth is the last sub-question: does the goodness of an act depend on the purity of the motive? Watch for him noticing that Bilbo acts well even though his feelings are a tangle. Connect forward: this mercy is the kind of choice the whole summer is asking him to weigh."
+    },
+    {
+      "id": "hobbit-ch6",
+      "bookId": "hobbit",
+      "section": "Chapter 6 — Out of the Frying-Pan into the Fire",
+      "unlockAtPct": 36,
+      "question": "Bilbo escapes Gollum and the goblins entirely on his own, and when he rejoins the dwarves he chooses not to tell them about the ring. Why does he keep it secret? Is hiding the ring from his own companions a harmless thing, a smart thing, or the first small crack in his honesty? When is it right to keep something to yourself, and when does a secret start to change the person keeping it?",
+      "note": "This plants a seed that matters across the whole curriculum—the divided/secret self (it pays off explicitly in Jekyll and Hyde, Year III). The easy reading is “everyone keeps small things private.” The harder probe is whether a concealment, even a justifiable one, does something to its keeper. Don’t push him to condemn Bilbo; the point is to make him notice the secret and feel its weight, so the question stays live rather than resolved."
+    },
+    {
+      "id": "hobbit-ch7",
+      "bookId": "hobbit",
+      "section": "Chapter 7 — Queer Lodgings",
+      "unlockAtPct": 43,
+      "question": "Gandalf gets the company into Beorn’s house through an elaborate, carefully-timed trick—introducing the dwarves two at a time so Beorn can’t refuse them. It works, and Beorn turns out to be a good host. Was Gandalf’s manipulation honest? Argue that a clever deception in a good cause is perfectly fine, then argue that it’s still deception even when it works out. Is there a difference between tricking someone for your benefit and tricking them for theirs?",
+      "note": "First real encounter with the means-and-ends problem that becomes Machiavelli in Year IV. He should be able to defend Gandalf (no one was harmed, Beorn was won over) and also feel the discomfort (Beorn was handled). The goal isn’t a verdict—it’s getting him to see that “it worked out” doesn’t automatically settle whether something was right, which is the exact muscle the bravery questions have been building."
+    },
+    {
+      "id": "hobbit-ch8",
+      "bookId": "hobbit",
+      "section": "Chapter 8 — Flies and Spiders",
+      "unlockAtPct": 52,
+      "question": "In Mirkwood, with Gandalf gone and the dwarves captured or webbed, Bilbo kills the spiders, names his sword Sting, and for the first time thinks of himself as someone who can act. The text says he felt like a different person. What changed—did Bilbo become brave in this chapter, or discover bravery he already had? And why does naming the sword matter to him right at this moment?",
+      "note": "The hinge of Bilbo’s whole arc. Press the distinction between becoming and discovering—Tolkien suggests the Tookish capacity was always there but required the crucible to surface. The sword-naming is worth dwelling on: naming a thing is claiming a relationship to it, declaring an identity. A strong answer ties “felt like a different person” back to Chapter 1’s reluctant grocer and sees the through-line. Personal stakes: has he ever surprised himself by doing something he didn’t know he could?"
+    },
+    {
+      "id": "hobbit-ch9",
+      "bookId": "hobbit",
+      "section": "Chapter 9 — Barrels Out of Bond",
+      "unlockAtPct": 58,
+      "question": "How has Bilbo’s role changed by the time he’s freeing the dwarves from the Elvenking’s prison, compared to how he behaved with the trolls back in Chapter 2? What caused the change? And how has it changed the way the dwarves see him—and the way he sees himself?",
+      "note": "The payoff is the contrast: at the trolls Bilbo was a liability being rescued; at the barrels he’s the rescuer, improvising under pressure while the dwarves are helpless in casks. Push on what caused it—not magic or the ring, but the accumulation of moments where he chose to act (the cave, the spiders). Watch for him tracking the dwarves’ shifting respect as an external mirror of an internal change."
+    },
+    {
+      "id": "hobbit-ch10",
+      "bookId": "hobbit",
+      "section": "Chapter 10 — A Warm Welcome",
+      "unlockAtPct": 62,
+      "question": "In Lake-town the dwarves are welcomed as kings returning in glory, with songs and feasting, and Thorin plays the part fully. But the reader knows something the townsfolk don’t—that the quest is far from won and the dragon is very much alive. Is Thorin being honest in accepting this welcome? What’s the difference between hope and a promise, and has Thorin let the town confuse the two?",
+      "note": "This sets up Thorin’s later moral collapse over the Arkenstone—the gap between the king he’s performing and the king he is. The town’s joy is built on an expectation Thorin hasn’t earned yet and may not deliver. Watch for him distinguishing genuine hope (legitimate) from letting people believe a thing is settled when it isn’t (a kind of lie of omission). Connects back to the secret-keeping in Chapter 6 from the opposite angle—now it’s a public self outrunning the truth."
+    },
+    {
+      "id": "hobbit-ch11",
+      "bookId": "hobbit",
+      "section": "Chapter 11 — On the Doorstep",
+      "unlockAtPct": 66,
+      "question": "The company sits in front of the locked door for days, trying everything, getting nowhere, and most of them sink into gloom. The door only opens because Bilbo is sitting quietly, paying attention, at exactly the right moment to catch the last light of Durin’s Day. What does it say that the breakthrough comes from patience and attention rather than force or cleverness? Is waiting well its own kind of skill—or just luck dressed up?",
+      "note": "A quieter virtue than courage—patience, attentiveness, the discipline of staying present when nothing seems to be happening. The “luck” reading is fair (he happened to be looking), but the richer case is that Bilbo was positioned to catch it because of how he attends to the world—the same noticing-instinct from the cave in Chapter 4. Good moment to ask whether the heroic virtues (boldness, strength) are the only ones that matter, or whether the book quietly prizes the domestic ones too."
+    },
+    {
+      "id": "hobbit-ch12",
+      "bookId": "hobbit",
+      "section": "Chapter 12 — Inside Information",
+      "unlockAtPct": 74,
+      "question": "This is the descent into Smaug’s lair. What does Tolkien say about where real courage happens, in the moment when Bilbo is walking down the tunnel alone toward the dragon? How does that compare to the way other people in the book talk about bravery and brave deeds? Is courage a decision or an action—and can you be brave in a moment when nobody will ever see what you did?",
+      "note": "Tolkien’s narrator says the real battle Bilbo fought was alone in the tunnel before he ever saw Smaug. That’s the thesis the whole summer’s bravery thread has been building toward: courage is the decision made in private, not the deed witnessed and sung about. Contrast with how the dwarves and Lake-town talk about glory and heroics. The unwitnessed-courage sub-question is the personal-stakes core—does a brave choice count if no one applauds?"
+    },
+    {
+      "id": "hobbit-ch13",
+      "bookId": "hobbit",
+      "section": "Chapter 13 — Not at Home",
+      "unlockAtPct": 79,
+      "question": "Bilbo finds the Arkenstone, knows instantly that Thorin would never willingly let anyone else have it, and pockets it without telling anyone. Make the case that Bilbo has just stolen it. Then make the case that he hasn’t. What’s the difference between taking and stealing? Does Bilbo’s own uneasy feeling about it tell you something his arguments to himself don’t?",
+      "note": "The honest hard case is that this looks like theft—he hides it, he knows Thorin’s claim, he rationalizes. The defense leans on the contract (a fourteenth share, his to choose) and his unformed intent. The richest cue is the uneasiness: Bilbo argues himself into it but doesn’t feel clean about it, and that gap between justification and conscience is exactly what Year III will examine in Jekyll. Don’t resolve it—he’ll return to it when the claims collide."
+    },
+    {
+      "id": "hobbit-ch14",
+      "bookId": "hobbit",
+      "section": "Chapter 14 — Fire and Water",
+      "unlockAtPct": 82,
+      "question": "Smaug is killed in this chapter—and Bilbo isn’t even in it. The hero of the whole quest, the dragon they’ve traveled across the world to face, is brought down by Bard, a man we’ve barely met, while Bilbo is miles away. Why would Tolkien kill the dragon off-stage from his main character? Argue that this is a flaw in the story, then argue that it’s the point. What is Tolkien telling you about Bilbo’s kind of heroism by not letting him slay the dragon?",
+      "note": "A genuine structural-reasoning question. The “flaw” case is intuitive (the hero should fight the dragon). The deeper case: Bilbo was never that kind of hero, and the book has consistently refused the warrior-glory model—his heroism is the burglary, the mercy, the patience, the moral choices, not the kill. Bard’s grim competence is a different register entirely. This reframes the whole quest and sets up that Bilbo’s hardest act (the Arkenstone) is still ahead and is moral, not martial."
+    },
+    {
+      "id": "hobbit-ch15",
+      "bookId": "hobbit",
+      "section": "Chapter 15 — The Gathering of the Clouds",
+      "unlockAtPct": 86,
+      "question": "With Smaug dead, the men of Lake-town and the elves come to the Mountain asking for a share of the treasure—some to rebuild a destroyed town, some by old claim. Thorin refuses them all and prepares for war over gold he can’t spend. Is Thorin’s refusal just? Lay out the strongest version of Thorin’s claim to the hoard, then the strongest version of the townsfolk’s claim. What has the gold done to Thorin between the last chapter and this one?",
+      "note": "This is where the competing claims get laid on the table. He should be able to steelman Thorin (it’s his ancestral hoard, taken by no right of theirs) and the town (their home burned because of this quest; they need it to live). The crucial observation is the change in Thorin—the “dragon-sickness,” gold corrupting the rightful king into something like the dragon he replaced. Sets up every assumption he’ll have to surface in the next chapter."
+    },
+    {
+      "id": "hobbit-ch16",
+      "bookId": "hobbit",
+      "section": "Chapter 16 — A Thief in the Night",
+      "unlockAtPct": 89,
+      "question": "Bilbo takes the Arkenstone—the one thing Thorin wants above all—and gives it to Thorin’s enemies, hoping to force a peace. He betrays his friend and his contract to prevent a war. Was this the most loyal thing Bilbo does in the whole book, or the most disloyal? Can betraying someone be the truest way of being faithful to them? What is Bilbo actually being loyal to when he hands over the stone?",
+      "note": "The moral peak of Bilbo’s arc. The disloyalty is real and Bilbo knows it—he expects Thorin’s fury. The deeper case is that he’s loyal to Thorin’s better self, to peace, to the lives that a war would cost, over loyalty to Thorin’s wishes. This is the disputatio at full strength: faithfulness to a person vs. faithfulness to the good, and whether those can come apart. Connect to the mercy with Gollum—both are Bilbo choosing rightly at personal cost, against his own interest."
+    },
+    {
+      "id": "hobbit-ch17",
+      "bookId": "hobbit",
+      "section": "Chapter 17 — The Clouds Burst",
+      "unlockAtPct": 92,
+      "question": "Just as the armies are about to fight over the treasure, the goblins arrive and the dwarves, elves, and men have to unite against a common enemy. The quarrel that consumed three chapters is dropped in an instant. What does it say that it takes a monstrous outside threat to make these people stop fighting each other? Were their claims and grievances ever as important as they thought—or does the goblin army reveal something about how seriously to take such quarrels in the first place?",
+      "note": "The resolution of the competing-claims arc, and it’s quietly deflationary—the all-consuming dispute over gold evaporates the moment something genuinely evil shows up. Watch for him weighing two readings: that the grievances were real but rightly subordinated to a greater danger, vs. that the whole quarrel was vanity exposed by perspective (an echo he’ll meet again in Boethius and the Dream of Scipio, Year V—how small earthly stakes look from the right vantage). Either reading is defensible; the noticing is the win."
+    },
+    {
+      "id": "hobbit-ch18",
+      "bookId": "hobbit",
+      "section": "Chapter 18 — The Return Journey",
+      "unlockAtPct": 96,
+      "question": "Thorin dies, and before he does he takes back his harsh words to Bilbo and says that if more people valued food and cheer and song above hoarded gold, the world would be a merrier place. Why does Tolkien give Thorin this deathbed change of heart instead of just letting him die a villain? Does a good death undo a bad choice? What does it cost Thorin to admit, at the very end, that Bilbo was right?",
+      "note": "The grace note that complicates any simple judgment of Thorin. Tolkien refuses to let him be merely the gold-cursed king—he’s redeemed in his last words. The hard question is whether the redemption is earned or merely sentimental, and whether reconciliation at the end changes the meaning of the choices that led there. Thorin’s praise of “food and cheer and song”—the hobbit values—vindicates Bilbo’s whole un-heroic sensibility. A thoughtful answer feels the weight of a deathbed reckoning without pretending it erases what came before."
+    },
+    {
+      "id": "hobbit-ch19",
+      "bookId": "hobbit",
+      "section": "Chapter 19 — The Last Stage",
+      "unlockAtPct": 100,
+      "question": "Bilbo comes home to find he’s been declared dead and his belongings are being auctioned off—including the silverware that gets stolen. He’s lost his reputation and some of his property, and the neighbors think he’s gone disreputable. Yet he’s gained things he can’t show them. Discuss the irony of going on a grand adventure to win a share of a dragon’s hoard, only to come home and find the real loss was the ordinary treasure he already had. What does Bilbo actually return with that’s worth more than what he lost—and why can’t his neighbors see it?",
+      "note": "The surface irony is sharp (he crosses the world for treasure and gets robbed of his spoons at home). The deeper turn: what he brings back—friendship, poetry, courage, a self he didn’t have—is invisible to Hobbiton’s ledger of respectability. He’s “lost his reputation” and gained his soul, and the book ends preferring the second. Personal-stakes close to the whole summer: the things worth becoming are not the things the neighbors count. Ties the bow on “what does it cost to become the kind of person worth being?”"
+    },
+    {
+      "id": "bronze-ch1-5",
+      "bookId": "bronze",
+      "section": "Chapters 1–5",
+      "unlockAtPct": 20,
+      "question": "Daniel has escaped the slavery of the mountain to build a life around one thing: hatred of Rome and the hope of driving them out by force. When we meet him he’s strong, capable, and burning with purpose. Make the case that Daniel’s hatred is justified—Rome killed his father, enslaved his people, and crucified men by the roadside. Then ask: even if his hatred is deserved, is it doing him good or harm? Can a feeling be completely fair and completely destructive at the same time?",
+      "note": "The whole book is a study of what hatred does to the person who holds it, and this opening cluster has to establish that the hatred is earned before it can be questioned—otherwise the book is just scolding a boy for being angry. He should be able to defend Daniel fully (the Romans are genuinely brutal; this isn’t paranoia). The pivot is the last question: the difference between whether an emotion is deserved and whether it’s good for you. Don’t let him resolve it yet—the cost of the hatred isn’t visible to Daniel here, and it shouldn’t be to the reader either."
+    },
+    {
+      "id": "bronze-ch6-10",
+      "bookId": "bronze",
+      "section": "Chapters 6–10",
+      "unlockAtPct": 39,
+      "question": "Daniel meets Jesus and hears him teach, and what Jesus says doesn’t fit anything Daniel expected from someone who might lead Israel to freedom. Daniel wants a leader who will raise an army; Jesus talks about loving enemies. Lay out why Daniel is right to be frustrated—he has a real, urgent cause and Jesus seems to offer no plan for it. Then ask what it is about Jesus that draws Daniel back even though Jesus won’t give him what he came for. What does Daniel sense that he can’t yet explain?",
+      "note": "This cluster introduces the central tension—force versus a kind of strength Daniel doesn’t have a category for yet. Honor the frustration; from Daniel’s vantage, “love your enemies” sounds like surrender to an occupying army, and an 11–12 year old will feel that as a real objection. The richer move is the pull Daniel feels against his own logic—the book is dramatizing two ways of understanding power, and Daniel is caught between them before he can articulate either. Watch for him noticing that Daniel keeps returning to listen, which his stated beliefs can’t account for."
+    },
+    {
+      "id": "bronze-ch11-15",
+      "bookId": "bronze",
+      "section": "Chapters 11–15",
+      "unlockAtPct": 59,
+      "question": "As Daniel gets pulled deeper into Rosh’s band, we start to see Rosh more clearly—he steals from his own people, abandons those who can’t help him, and cares more about his own power than about anyone he claims to fight for. Daniel has to decide whether Rosh’s cause excuses Rosh’s behavior. If you’re fighting for something genuinely good, does it matter how you treat people along the way? Make the strongest case that Rosh’s harshness is just what a leader at war has to do—then say where that argument breaks down.",
+      "note": "This is the book’s first hard means-and-ends problem, and it rhymes directly with the Gandalf-and-Beorn question from The Hobbit and looks ahead to Machiavelli in Year IV—a cause used to justify treating people as tools. The “war requires hard choices” defense is real and he should make it honestly. Where it breaks: Rosh isn’t sacrificing for the cause, he’s using the cause to serve himself, and the tell is how he treats the powerless who can’t advance his aims. Watch for Daniel beginning to separate the rightness of a cause from the character of the man leading it."
+    },
+    {
+      "id": "bronze-ch16-20",
+      "bookId": "bronze",
+      "section": "Chapters 16–20",
+      "unlockAtPct": 79,
+      "question": "Daniel’s hatred starts costing him things he loves—it pulls him away from Leah, from Thacia, from the people who actually depend on him, and it begins to feel less like a weapon he wields and more like a master he serves. There’s a moment to watch for where his hatred stops protecting him and starts destroying him. Where is that line? How can you tell when a thing you’re holding onto has started holding onto you instead?\n\nSamson can’t speak, can’t follow the arguments about Rome and rebellion that consume the others, and never says why he’s loyal to Daniel—yet he gives more for the cause than anyone, including his life. Daniel is full of words, grievances, and reasons; Samson has none of these and is more faithful than all of them. What does it say that the most loyal person in the band is the one who understands the politics least? Is Samson’s devotion less meaningful because he can’t explain it—or more, because nothing is in it for him and he isn’t doing it for a cause at all? What is Samson loyal to, if not the rebellion?",
+      "note": "QUESTION 1 — This is the turn the whole book has been building toward: the hatred shifts from shield to poison. He should be tracking the cost: Leah’s fragile recovery undone, relationships strained, Daniel increasingly alone. The deeper question—when does something you hold begin to hold you—is the personal-stakes core and connects forward to the divided self in Jekyll (Year III) and the disordered loves in Augustine (Year V). A strong answer can name the specific moment and say what made it the hinge.\n\nQUESTION 2 (Samson) — Samson is the book’s quiet answer to the zealots, and the contrast is the point. Daniel’s loyalty is bound up with hatred, ideology, and a cause that’s slowly corrupting him; Samson’s is pure attachment to a person, asking nothing and arguing nothing. The provocation worth pressing is whether understanding and articulateness are required for real virtue—the band’s talkers are less faithful than the man who can’t talk at all, which cuts against a smart kid’s instinct that being able to reason about something is what makes it count. The deepest turn: Samson isn’t loyal to Rome’s defeat, he’s loyal to Daniel, and his self-sacrifice is love for a person, not service to an ideology—exactly the move the book is steering Daniel toward and the zealots away from. Connect it to Bilbo handing over the Arkenstone and, ahead, to the difference between loving a cause and loving a person that runs through the whole curriculum."
+    },
+    {
+      "id": "bronze-ch21-24",
+      "bookId": "bronze",
+      "section": "Chapters 21–24",
+      "unlockAtPct": 100,
+      "question": "At the end, Daniel is freed from his hatred—but not by winning, not by defeating Rome, and not by getting what he spent the whole book wanting. The thing that finally breaks the hatred’s hold on him is letting Jesus into his home and his grief. Why does the book insist that Daniel is freed by surrender rather than victory? Argue that this is a disappointing ending—Rome is still there, nothing was conquered. Then argue that it’s the only real victory in the book. What did Daniel actually defeat?",
+      "note": "The resolution deliberately refuses the ending Daniel (and the reader) wanted—no army, no liberated Israel, no triumph over Rome. The “disappointing” case is fair and worth voicing: the external problem is unsolved. The deeper case is that the real enemy was never Rome; it was the hatred itself, and that’s the only thing Daniel actually defeats. The freedom comes through opening to love and grief rather than through force—the same inversion of power the Jesus clusters set up. Tie it back to chapters 1–5: the hatred that was completely justified was also the thing imprisoning him, and being right about Rome was never going to set him free. This closes the summer’s throughline—becoming the kind of person worth being cost Daniel the very thing he was most sure he needed."
+    },
+    {
+      "id": "lww-ch1",
+      "bookId": "lww",
+      "section": "Chapter 1 — Lucy Looks into a Wardrobe",
+      "unlockAtPct": 6,
+      "question": "Lucy walks through the wardrobe, spends what feels like hours in Narnia, and comes back to find no time has passed and no one believes her. She’s telling the exact truth and it sounds like the most obvious lie. Put yourself in the other children’s shoes: are they wrong to disbelieve her? What would it actually take to make you believe something that sounds impossible from someone you trust? Is Lucy’s word alone enough—and if not, what does that say about how we decide what’s true?",
+      "note": "This opens the summer’s quiet thread about testimony and knowledge—how we come to believe things we can’t check ourselves, which is groundwork for Hume on miracles in Year III. The honest hard case is that the siblings are being reasonable: wardrobes don’t lead to other worlds. The richer turn is that reasonableness and rightness have come apart—Lucy is both unbelievable and correct. Watch for him weighing the trustworthiness of the witness against the strangeness of the claim, which is exactly the balance Hume will later press."
+    },
+    {
+      "id": "lww-ch2",
+      "bookId": "lww",
+      "section": "Chapter 2 — What Lucy Found There",
+      "unlockAtPct": 12,
+      "question": "Mr. Tumnus admits he was going to hand Lucy over to the White Witch—he’s a kidnapper by trade—but he can’t go through with it once he’s shared tea with her and come to know her. What changes between his plan and his choice? Is Tumnus a good person who did a bad thing, or a bad person who did one good thing? Does sitting down to a meal with someone really make it harder to betray them—and if so, why?",
+      "note": "First real character-complexity question of the book—Tumnus isn’t a simple villain or hero, and the conversion happens through knowing the person rather than through an argument. The good-person/bad-person framing is a trap worth letting him struggle with; the better answer is that the categories are too clean for what Lewis is showing. The meal detail matters—shared table, hospitality, the particular made vivid—and it rhymes with how relationship dissolves abstraction. A thoughtful answer notices that Tumnus’s fear of the Witch was real and his choice was still costly."
+    },
+    {
+      "id": "lww-ch3",
+      "bookId": "lww",
+      "section": "Chapter 3 — Edmund and the Wardrobe",
+      "unlockAtPct": 17,
+      "question": "Edmund follows Lucy into Narnia, sees that she was telling the truth the whole time—and then, when they get back, he lies and denies it to spite her. He had proof in his own experience and chose to deny it anyway. Why would someone deny something he knows is true? What does Edmund get out of the lie, and what does it cost him? Make the case that Edmund’s lie is just ordinary sibling meanness—then make the case that something more serious is going wrong in him.",
+      "note": "The first crack in Edmund, and Lewis is careful that it’s a choice against known truth, not ignorance—which makes it a moral failure rather than a mistake. The “just meanness” reading is the easy one; the deeper case is that Edmund is beginning to bend reality to his resentment, denying what he’s seen because admitting it would mean admitting Lucy was right. This is the seed of the self-deception thread that runs to Jekyll in Year III. Watch for him noticing the difference between being wrong and refusing what you know."
+    },
+    {
+      "id": "lww-ch4",
+      "bookId": "lww",
+      "section": "Chapter 4 — Turkish Delight",
+      "unlockAtPct": 22,
+      "question": "The Witch gives Edmund enchanted Turkish Delight, and the more he eats the more he wants, until he’d do almost anything for more. Lewis says it’s the kind of thing that people will eat until they make themselves sick, and still want. Is the magic really doing all the work here—or is the Witch just feeding something that was already in Edmund? Could she have hooked Lucy the same way? What’s the difference between a desire someone puts into you and a desire that was already yours to be exploited?",
+      "note": "This is the book’s clearest picture of disordered desire—wanting a thing past the point where it’s good for you—and it sets up Augustine on restless, misdirected loves in Year V. The enchantment is real, but Lewis suggests it works because it meets something Edmund already wants (to be important, to lord it over his siblings). The Lucy comparison is the sharp probe: would the same trap have caught her? Watch for him distinguishing a temptation from outside vs. a vulnerability already inside—and noticing that the Witch needs both."
+    },
+    {
+      "id": "lww-ch5",
+      "bookId": "lww",
+      "section": "Chapter 5 — Back on This Side of the Door",
+      "unlockAtPct": 28,
+      "question": "Both children have now been to Narnia, but when Peter and Susan ask, Edmund lies and says it was all a game—deliberately making Lucy look like she’s either lying or losing her mind. The Professor then surprises everyone by taking Lucy’s side, reasoning that she’s not a liar and not mad, so logically she might be telling the truth. Whose method of deciding is better—the children going with what seems obvious, or the Professor following the logic wherever it leads? When should you trust an argument over your gut?",
+      "note": "The Professor’s argument is a small masterclass in reasoning from first principles—he sets aside what feels plausible and follows a clean logical chain (she’s honest, she’s sane, therefore consider that she’s right). This is a direct preview of the logical method the curriculum builds toward, and a chance to praise reasoning that overrides intuition. Edmund’s cruelty here is also worth naming—he’s not just lying for himself now, he’s deliberately isolating Lucy. The two move together: Edmund abandons truth, the Professor models how to find it."
+    },
+    {
+      "id": "lww-ch6",
+      "bookId": "lww",
+      "section": "Chapter 6 — Into the Forest",
+      "unlockAtPct": 33,
+      "question": "All four children are in Narnia now, and they decide to help Mr. Tumnus, who was arrested for sparing Lucy—meaning he’s in danger because he did the right thing. Edmund, meanwhile, is secretly planning to slip away to the Witch. Is it fair that Tumnus suffers for his good choice while Edmund, who’s chosen wrongly, is so far untouched? Does doing the right thing actually protect you—or is that a comforting idea the book is about to complicate?",
+      "note": "This plants a hard truth the book won’t flinch from: virtue and reward come apart, and the good can suffer precisely for their goodness (Tumnus is imprisoned for mercy). It’s an early, age-appropriate touch of the problem of suffering that becomes Year V’s center. Don’t let him land on “good people always get rewarded”—the book is actively dismantling that. The Edmund contrast sharpens it: at this moment wrongdoing looks safe and goodness looks costly, and the reader is meant to feel the unfairness."
+    },
+    {
+      "id": "lww-ch7",
+      "bookId": "lww",
+      "section": "Chapter 7 — A Day with the Beavers",
+      "unlockAtPct": 39,
+      "question": "The Beavers tell the children that Aslan is on the move, and the name produces a strange effect—each child feels something different at the sound of it, before they know anything about who Aslan is. Why does Lewis have them react to the name before they have any facts? Edmund alone feels horror. What does it mean that the same name produces longing in some and dread in another—does it say something about Aslan, or something about each child?",
+      "note": "Lewis is doing something subtle—the response to Aslan’s name reveals the state of each child’s heart before any information arrives, which is a picture of how we’re drawn to or repelled by the good depending on what we’ve become. Edmund’s dread isn’t about Aslan; it’s about Edmund. This connects forward to Calvin’s sensus divinitatis in Year VI (an awareness that precedes argument). Watch for him seeing that the name sorts the children, exposing what’s already in them."
+    },
+    {
+      "id": "lww-ch8",
+      "bookId": "lww",
+      "section": "Chapter 8 — What Happened After Dinner",
+      "unlockAtPct": 46,
+      "question": "The Beavers explain the prophecy and the deep history of Narnia, and the children learn they have a role they never chose—they’re meant to be kings and queens, central to a story far bigger than their accidental tumble through a wardrobe. Is it fair to be handed a destiny you didn’t ask for? Make the case that the children are free—they can still walk away—and the case that they’re bound by something they can’t refuse without failing. Can a calling be both a gift and a weight?",
+      "note": "First encounter with vocation and providence—being called to something larger than yourself that you didn’t author—which is the explicit theme of Year VII (Herbert’s “The Collar,” the domain text). The freedom-vs-calling tension is real: Lewis affirms both that the children must choose and that they’re meant for this. Watch for him resisting a flat answer; a calling that’s purely chosen isn’t a calling, and one that’s purely imposed isn’t moral. Edmund’s absence at this dinner—he’s already slipping away—quietly shows what refusing the calling looks like."
+    },
+    {
+      "id": "lww-ch9",
+      "bookId": "lww",
+      "section": "Chapter 9 — In the Witch's House",
+      "unlockAtPct": 52,
+      "question": "Edmund finally reaches the Witch, and it’s nothing like what he imagined—no honor, no kingdom, no more Turkish Delight, just cold, contempt, and a courtyard full of stone statues that used to be living creatures. Why does Lewis show us Edmund’s disappointment in such detail? Edmund got exactly what he chose—so why isn’t it what he wanted? What’s the difference between what we want and what we think we want?",
+      "note": "The reckoning of disordered desire—Edmund pursued a fantasy and arrived at the cold reality underneath it, which is how Lewis tends to portray sin: not thrilling, but ultimately barren. The stone statues are the visual thesis (the Witch turns the living to stone—she deadens). The want-vs-think-we-want question is the deep one and ties back to the Turkish Delight: Edmund’s real desires (to be loved, to matter) were never going to be met by the thing he chased. Watch for the first stirrings of his regret, which the book treats as the beginning of his turn."
+    },
+    {
+      "id": "lww-ch10",
+      "bookId": "lww",
+      "section": "Chapter 10 — The Spell Begins to Break",
+      "unlockAtPct": 58,
+      "question": "As Aslan approaches, the Witch’s endless winter starts to thaw—Father Christmas appears, the snow melts, spring breaks through. Lewis ties the return of life directly to Aslan’s coming, before Aslan has done anything or even appeared. Why does the world itself respond to Aslan? What is Lewis saying by making the seasons, the weather, the whole land take sides? Is there such a thing as a world that has a right order it’s been knocked out of—and can be restored to?",
+      "note": "This introduces the idea of a moral order built into reality itself—the winter isn’t just weather, it’s the world wrong, and the thaw is the world being set right. That’s a deeply classical and Christian intuition (creation has a proper order; evil is a distortion of it) that surfaces in Boethius, Athanasius, and the natural-law thread later. The “always winter and never Christmas” detail is worth dwelling on. Watch for him grasping that Lewis isn’t being merely pretty here—the melting means something about good being more native to the world than evil."
+    },
+    {
+      "id": "lww-ch11",
+      "bookId": "lww",
+      "section": "Chapter 11 — Aslan Is Nearer",
+      "unlockAtPct": 65,
+      "question": "The Witch is dragging Edmund along as her prisoner now, and for the first time he sees her turn a group of happy creatures to stone for the crime of celebrating Aslan’s arrival. Watching real cruelty up close, Edmund feels pity for the first time in the story—pity for someone other than himself. Why does Lewis make Edmund’s turn begin with pity rather than with getting caught or being punished? What’s the difference between being sorry you got caught and being sorry for what you’ve done?",
+      "note": "Lewis locates the start of Edmund’s redemption precisely—not in consequences but in compassion, the moment he’s moved by someone else’s suffering. That’s a crucial moral distinction (contrition vs. mere regret at being caught) and it’s the hinge of his whole arc. The detail that he pities the victims of the Witch he chose to serve is the book showing his eyes opening. Watch for him connecting this to the Turkish Delight Edmund—how far the boy has come from caring only about his own appetites—and naming what actually changed inside him."
+    },
+    {
+      "id": "lww-ch12",
+      "bookId": "lww",
+      "section": "Chapter 12 — Peter's First Battle",
+      "unlockAtPct": 71,
+      "question": "Peter, the oldest, has no experience and is terrified, but when the wolf attacks Susan he fights it and kills it—and Aslan immediately knights him, even though Peter admits he felt sick and scared the whole time and didn’t really know what he was doing. Does Peter deserve to be honored if he was frightened the entire time? Is courage the absence of fear, or doing the necessary thing while afraid? Could a person who felt no fear even be called brave?",
+      "note": "This is the same courage question that ran through The Hobbit—courage as a choice made in fear, not a feeling of fearlessness—and it’s worth letting him connect the two books directly (Bilbo in the tunnel, Peter at the wolf). Aslan knighting Peter despite his fear is Lewis’s verdict: the fear doesn’t disqualify the courage, it’s the condition of it. The last sub-question is a good provocation—if you feel no fear, is facing danger even an achievement? A strong answer ties bravery to the will, not the nerves."
+    },
+    {
+      "id": "lww-ch13",
+      "bookId": "lww",
+      "section": "Chapter 13 — Deep Magic from the Dawn of Time",
+      "unlockAtPct": 77,
+      "question": "The Witch reveals she has a law on her side: by the Deep Magic written into Narnia from its creation, every traitor belongs to her, and Edmund is a traitor. Even Aslan doesn’t dispute that the law is real and binding. Is the Witch right here? She’s cruel, but is her claim on Edmund just? What does it mean that there’s a law so deep even Aslan won’t simply break it—and what would it say about Aslan if he just ignored the rules when they became inconvenient?",
+      "note": "This is the book’s hardest reasoning moment and a genuine encounter with justice as something binding even on the good—Aslan won’t cheat the law, which means the law is real and Edmund really is forfeit. The Witch is, on the narrow point, correct, and Lewis makes the reader feel that. This sets up the substitution in the next chapters and previews the justice-and-mercy tension that runs through Anselm, Athanasius, and the atonement. Watch for him grasping why Aslan can’t just wave the law away—a god who ignores his own justice isn’t trustworthy. The problem is real and needs a real solution."
+    },
+    {
+      "id": "lww-ch14",
+      "bookId": "lww",
+      "section": "Chapter 14 — The Triumph of the Witch",
+      "unlockAtPct": 84,
+      "question": "Aslan offers himself to the Witch in Edmund’s place and goes willingly to the Stone Table, where he’s mocked, shaved, bound, and killed—and he doesn’t fight back, though he clearly could. Why does Aslan have to volunteer? Would it mean the same thing if the Witch had simply captured and killed him? What’s the difference between a death that’s inflicted on someone and a death someone chooses to undergo for another?",
+      "note": "The substitution at the center of the book, and the willingness is the whole point—a sacrifice that’s forced is just a killing; one that’s freely chosen is love. Lewis is dramatizing the atonement, and the question doesn’t require him to name that to grasp the moral logic: Aslan satisfies the law’s claim by taking Edmund’s place voluntarily. This is the payoff of the Deep Magic question—the law was real, so the rescue had to be costly and real too. Watch for the connection to Bilbo and Daniel: the deepest acts in all three books are someone choosing loss for another’s sake. Handle the humiliation scene with care; it’s meant to land heavily."
+    },
+    {
+      "id": "lww-ch15",
+      "bookId": "lww",
+      "section": "Chapter 15 — Deeper Magic from Before the Dawn of Time",
+      "unlockAtPct": 89,
+      "question": "Aslan rises from the dead, and explains there was a deeper magic the Witch didn’t know: when an innocent victim who has done no wrong dies willingly in a traitor’s place, death itself starts working backwards. The Witch knew the law but not the deeper law beneath it. What does it mean that the Witch’s knowledge was real but incomplete—she wasn’t wrong, just not deep enough? Is it possible to be perfectly logical, follow the rules exactly, and still miss the most important thing?",
+      "note": "This is an extraordinary epistemological point dressed as a story—the Witch reasoned correctly from what she knew and still lost, because there was a deeper truth her system couldn’t see. That’s a direct preview of how the curriculum treats the secular challengers: Hume, Machiavelli, and the rest are often right within their frame and answered not by catching them in an error but by a deeper account they couldn’t reach (the Deep/Deeper Magic structure mirrors exactly how Reid answers Hume, how grace exceeds law). Watch for him seeing that being un-refuted isn’t the same as being right about everything—there can be a magic deeper than the one you’ve mastered."
+    },
+    {
+      "id": "lww-ch16",
+      "bookId": "lww",
+      "section": "Chapter 16 — What Happened About the Statues",
+      "unlockAtPct": 94,
+      "question": "Aslan goes to the Witch’s courtyard and breathes on the stone statues, and the creatures she’d killed come back to life, color spreading through the stone until they move again. Earlier the Witch turned the living to stone; now Aslan turns the stone back to life. Why does Lewis make their powers exact opposites in this way? What is he saying about what the Witch does to the world versus what Aslan does? If you had to describe the difference between them in one word each, what would it be?",
+      "note": "The visual thesis of the whole book—the Witch petrifies (deadens, freezes, stops), Aslan vivifies (warms, frees, restores)—and Lewis builds his picture of evil and good as deadening vs. life-giving rather than, say, weak vs. strong. This connects back to the thaw in Chapter 10 and to the classical/Christian idea that evil is fundamentally a privation, a stopping of life, while good is generative. Watch for him reaching for the right contrast (death/life, cold/warm, stone/flesh) and seeing that the book has been consistent about this from the first winter."
+    },
+    {
+      "id": "lww-ch17",
+      "bookId": "lww",
+      "section": "Chapter 17 — The Hunting of the White Witch",
+      "unlockAtPct": 100,
+      "question": "The children become kings and queens and reign for years, and Edmund—the traitor who was bought back at the cost of Aslan’s life—becomes known as King Edmund the Just, famous for his fair and careful judgment. Why does Lewis make the redeemed traitor into the great judge? Wouldn’t Peter, who never betrayed anyone, be the more obvious choice? What does someone who has been forgiven understand about justice and mercy that someone who never fell might not?",
+      "note": "The quiet masterstroke of the ending—Edmund becomes “the Just” precisely because he fell and was redeemed, giving him a knowledge of both guilt and grace that the unfallen Peter lacks. Lewis is saying something profound about how being forgiven shapes a person into someone who can judge rightly (mercy informed by having needed mercy). This closes Edmund’s arc and the summer’s throughline beautifully: the cost of becoming the kind of person worth being sometimes runs through failure and restoration, not around it. Tie it to the whole summer—Bilbo, Daniel, and Edmund all become who they’re meant to be by losing, surrendering, or being remade rather than by winning."
     }
   ]
 }
